@@ -25,12 +25,13 @@ Define and execute a deployment and operational readiness plan, setup monitoring
 
 ![risks](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/76ffc1a0326ccffd544b02d9e8a0598a11cd708e/images/risks.jpg)
 
-So what type of risks do we see most often in in generative AI systems?
+## So what type of risks do we see most often in in generative AI systems?
+
 The first category of risk is overall quality of the application. 
 We want to ensure that the application is not producing errors or what people often call **hallucinating**, which would be like adding additional incorrect information or just sort of making up information.
 
 We also need to make sure that our system is robust to adversarial attacks.
-This could be a **jailbreak**, which is when a user tries to manipulate or confuse the system to get it to produce something that it’s not supposed to produce, or new types of attacks where an attacker embeds hidden instructions in data sources like emails or documents.
+This could be a **jailbreak**, which is when a user tries to manipulate or confuse the system to get it to produce something that it’s not supposed to produce, or new types of attacks where an attacker embeds hidden instructions in data sources like emails or documents (**prompt injection**).
 
 We also look at traditional **harmful content**, whether that is harmful natural language content, for example, or harmful imagery or code that contains security vulnerabilities.
 
