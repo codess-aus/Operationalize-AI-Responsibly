@@ -62,6 +62,17 @@ We’ve integrated this service directly into our Microsoft Copilot ecosystem as
 
 ![Azure Content Safety](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/0bc86e55ca482063fcf8a84796036b575f4b6820/images/safetysystem.jpg)
 
+There are three types of **filters** offered by Azure AI Content Safety:
+
+- We provide configurable **content filters** for **harmful content**, like text and imagery containing violence or hate speech, which you can adjust by severity level. These are always set to a medium threshold by default.
+- Customers can also create their own **custom content filters** using small training datasets.
+- **Prompt shields** are detection models that can be turned on for model inputs, to detect when a user is trying to attack or manipulate the AI system into doing something outside it’s intended purpose or design.
+- Lastly, we have **detection models** that can be turned on to flag other kinds of risky inputs or outputs, such as **protected or copyright material or code**, or **hallucinations**, where the model output does not align to the source material provided.
+- Customers can also create custom blocklists to filters specific terms in inputs or outputs.
+
+![Filters](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/2faa396596693c4b863ac09de041ca9a0ecb7f16/images/Filters.jpg)
+
+
 
 
 
