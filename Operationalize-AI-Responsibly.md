@@ -21,7 +21,7 @@ The effectiveness of these mitigations is then tested through manual and automat
 ## Operate
 Define and execute a deployment and operational readiness plan, setup monitoring, and improve the AI application in production through monitoring and incident response.
 
-[Lifecycle](../images/generative-ai-lifecycle.png)
+[!Lifecycle](../images/generative-ai-lifecycle.png)
 
 
 
