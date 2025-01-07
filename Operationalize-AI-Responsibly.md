@@ -21,7 +21,7 @@ The effectiveness of these mitigations is then tested through manual and automat
 ## Operate
 Define and execute a deployment and operational readiness plan, setup monitoring, and improve the AI application in production through monitoring and incident response.
 
-![Lifecycle](../images/generative-ai-lifecycle.png)
+![Lifecycle](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/693f55dd6876ab8b616844b5f97685eb8ed8d87b/images/generative-ai-lifecycle.png)
 
 
 
