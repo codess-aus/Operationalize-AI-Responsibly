@@ -94,6 +94,11 @@ Define the models **output format**:
 **Safety Guardrails**:
 - Define specific guardrails to mitigate harms that have been identified and prioritized for the scenario
 
+It is far more effective to tell a model what not to do AND what to do instead than simply telling it what not to do. We’ve baked these learnings into Azure AI Foundry playground for you, so you don’t need to start from scratch when building a system message.
+
+![templates](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/a0013245459b3d6ca9069b6f7e35e5d1162c640b/images/templates.jpg)
+
+
 
  
 
