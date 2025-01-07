@@ -72,8 +72,30 @@ There are three types of **filters** offered by Azure AI Content Safety:
 
 ![Filters](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/2faa396596693c4b863ac09de041ca9a0ecb7f16/images/Filters.jpg)
 
+## Steer your model’s behavior with a system message
+
+Craft your system message to guide the model’s behavior and how it uses grounding data.
+
+Spell out the **capabilities** that the agent should take on:
+- Define the specific task(s) you would like the model to complete.
+- Describe who the users of the model will be, what inputs will be provided to the model, and what you expect the model to output
+- Define how the model should complete the tasks, including any additional tools (like APIs, code, plug-ins) the model can use.
+- Define the scope and limitations of the model’s performance by providing clear instructions
+- Define the posture and tone the model should exhibit in its responses.
+
+Define the models **output format**:
+- Define the language and syntax of the output format. For example, if you want the output to be machine parseable, you may want to structure the output to be in JSON, XSON or XML. 
+- Define any styling or formatting preferences for better user readability like bulleting or bolding certain parts of the response
+
+**Few shot learning**:
+- Describe **difficult use cases** where the prompt is ambiguous or complicated, to give the model additional visibility into how to approach such cases.  
+- Show **chain-of-thought reasoning** to better inform the model on the steps it should take to achieve the desired outcomes. 
+
+**Safety Guardrails**:
+- Define specific guardrails to mitigate harms that have been identified and prioritized for the scenario
 
 
+ 
 
 
 
