@@ -40,6 +40,31 @@ When is it okay for a system to be conversing and acting like a human? And when 
 
 So, you need to be looking across all of these different dimensions, which may sound like a lot, but we’ve found that same technological approach works for each of these different types of attacks.
 
+## Risk mitigation layers
+
+We find that most production applications require a mitigation plan with four layers of technical mitigations: (1) the model, (2) safety system, (3) system message and grounding, and (4) user experience layers. 
+
+![Defence in Depth](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/9c4f0bffbff7e9c4ecde9735f4f8abc09ca0ec6b/images/defenceindepth.jpg)
+
+The model and safety system layers are typically platform layers, where built-in mitigations would be common across many applications. They are built into Azure for you. 
+
+The next two layers largely depend on the application’s purpose and design, meaning the implementation of mitigations can vary a lot from one application to the next. 
+
+Note that, while the foundation model you’re using is obviously an important component of the system, it's not the complete system. For most applications, it’s not enough to rely on the **safety mitigations built into the model itself**. Even with fine-tuning, LLMs can make mistakes and are susceptible to attacks like jailbreaks.
+
+So, just like security, at Microsoft we use a layered defense-in-depth approach. 
+And we apply an AI-based **safety system** that goes around the model and monitors the inputs and outputs to help prevent attacks from being successful and catches places where the model makes a mistake.
+At Microsoft, this state-of-the-art safety system is called **Azure AI Content Safety**.
+
+And the filters are configurable for inputs and outputs… because you might want different settings for your use case. For example, a gaming company may be more permissive of violent language in inputs but may not want to output violent language to users.
+
+We’ve integrated this service directly into our Microsoft Copilot ecosystem as a built-in safety system, and we make the same technology available to developers via Azure AI to help them build safer AI applications from the start.
+
+![Azure Content Safety](https://github.com/codess-aus/Operationalize-AI-Responsibly/blob/0bc86e55ca482063fcf8a84796036b575f4b6820/images/safetysystem.jpg)
+
+
+
+
 
 
 
